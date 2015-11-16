@@ -106,7 +106,7 @@ void draw(){
       //enemy's place
         enemyX += 5;
        for(int i = 0; i < 350; i += 70){
-         image(enemy,1630+enemyX+i,enemyY);
+         image(enemy,1980+enemyX+i,enemyY);
          if(enemyX > 640){
            enemyX = -2270;
            enemyY = random(400);
